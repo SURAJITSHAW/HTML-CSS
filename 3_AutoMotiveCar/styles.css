@@ -96,3 +96,22 @@ footer strong {
 footer p {
     margin: 0;
 }
+
+@media screen and (max-width: 700px) {
+    nav {
+        /* flex-direction: column; */
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav .highlight {
+        display: none;
+    }
+
+    .content {
+        font-size: 1.4rem;
+        padding: 1rem;
+    }
+}
