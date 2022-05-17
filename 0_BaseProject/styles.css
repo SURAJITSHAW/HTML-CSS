@@ -1,7 +1,9 @@
 /* Import 'Roboto' fonts */
 
+/* '*' selects all the elements */
 * {
-    box-sizing: border-box;
+    /* This property allows us to include the padding and border in an elements total width and height. By default, height of an element calculated like this: height+border+padding = actual width of an element*/
+    box-sizing: border-box; 
 }
 
 body {
