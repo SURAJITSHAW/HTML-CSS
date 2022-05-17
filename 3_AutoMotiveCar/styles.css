@@ -1,5 +1,5 @@
 /* Import 'Roboto' fonts */
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 /* '*' selects all the elements */
 * {
     /* This property allows us to include the padding and border in an elements total width and height. By default, height of an element calculated like this: height+border+padding = actual width of an element*/
