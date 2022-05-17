@@ -10,3 +10,20 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+
+header {
+    /* min-height property defines the minimum height of an element. If the content is smaller than min-height, the min-height will be applied. Otherwise it has no effect */
+    min-height: 100vh;
+    /* Specifies the size of the background images. Value of this property: 
+    1.auto(default, displayed at it's original size)
+    2.cover(Resize the img to cover the entire container, stretch it and also cut a little bit at edges in the process.
+    3.container(Resize the img to make sure the img is fully visible)
+    4.percentage or pixel value(can explicitly set the value)
+    */
+    background-size: cover;
+    /* Sets the starting position of a background image. By default background images is placed at top-left corner. */
+    background-position: center center;
+    display: flex;
+    background-image: url(./Pictures/car-bg.jpg);
+    color: #fff;
+}
