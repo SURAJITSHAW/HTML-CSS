@@ -24,6 +24,36 @@ header {
     /* Sets the starting position of a background image. By default background images is placed at top-left corner. */
     background-position: center center;
     display: flex;
+    flex-direction: column;
     background-image: url(./Pictures/car-bg.jpg);
     color: #fff;
+}
+
+.container {
+    /* Defines maximum length of an element. */
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav .logo {
+    font-size: 2rem;
+}
+
+nav li a {
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;
 }
