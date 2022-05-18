@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2 {
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 1000px;
+    max-width: 100%;
+}
+
+header {
+
+}
+
+/* 35min */
