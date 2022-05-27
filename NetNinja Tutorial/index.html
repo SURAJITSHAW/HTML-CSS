@@ -10,13 +10,13 @@
         <!-- Baic Name, E-mail, Password input section -->
 
         <label for="userName">User Name : </label>
-        <input type="text" id="userName" name="userName">
-        <br>
+        <input type="text" id="userName" name="userName" placeholder="Enter your name">
+        <br><br>
         <label for="email">User E-mail : </label>
-        <input type="email" id="email" name="email">
-        <br>
+        <input type="email" id="email" name="email" placeholder="Enter your E-mail">
+        <br><br>
         <label for="password">Password : </label>
-        <input type="password" id="password" name="password">
+        <input type="password" id="password" name="password" placeholder="Enter password">
 
         <!-- Radio Buttons -->
 
@@ -29,10 +29,24 @@
         <br>
         <input type="radio" name="age" value="60+" id="option-3">
         <label for="option-3">60+</label>
+        <br><br>
+
+        <!-- Dropdown Menu Box -->
+        <label for="questions">Security questions :</label>
+        <select name="questions" id="questions">
+            <option value="q1">What's your favourite tv show?</option>
+            <option value="q2">Your favourite actress?</option>
+            <option value="q3">Your favourite fictional character?</option>
+        </select>
+        <br><br>
+        <label for="answers">Security question answer :</label>
+        <input type="text" name="answers" id="answers">
+        <br><br><br>
+
+        <!-- Textarea tag -->
+        <label for="bio">Your bio:</label>
         <br>
-
-        <!-- Dropdown Menu Bar -->
-
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Write about yourself..."></textarea>
     </form>
      
 </body>
