@@ -3,3 +3,6 @@
 ## .navbar-brand
 - For title/logo of navigation menu.
 ## .container
+
+## d-sm-block
+- It basically means that apply the prop to small breakpoint and up.
