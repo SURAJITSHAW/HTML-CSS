@@ -31,3 +31,8 @@
 
 ## Containers
 - 
+
+# Grid Layout
+- Placing contents into the page using row & columns.
+- Bootstrap uses a 12 column grid systems.
+- 
