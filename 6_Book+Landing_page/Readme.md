@@ -39,3 +39,6 @@
 
 ## img-fluid
 - This prop will cover 100% width of it's parent.
+
+## Card
+- g-0: Is a utility class for customizing the gap b/w col in a row.
