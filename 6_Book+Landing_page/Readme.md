@@ -35,4 +35,7 @@
 # Grid Layout
 - Placing contents into the page using row & columns.
 - Bootstrap uses a 12 column grid systems.
-- 
+- We can add `justify-content` prop as flexbox with row class to horizontally place them.
+
+## img-fluid
+- This prop will cover 100% width of it's parent.
