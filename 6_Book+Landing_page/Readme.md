@@ -42,3 +42,12 @@
 
 ## Card
 - g-0: Is a utility class for customizing the gap b/w col in a row.
+
+## Accordion
+
+    .accordion
+        .accordion-item
+            h2.accordion-header
+                button.accordion-button target='#targatedCollapsed
+            .accordion-collapse.collapse#targatedCollapsed
+                .accordion-body
